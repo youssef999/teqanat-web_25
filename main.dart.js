@@ -108883,7 +108883,7 @@ n.CW.sn(!0)
 n.cx.sn("")
 i=t.N
 s=6
-return A.T(A.bjx(A.hn("http://teqanat.runasp.net/api/Projects",0,null),A.ab(["Content-Type","application/json"],i,i)),$async$qm)
+return A.T(A.bjx(A.hn("https://teqanat.runasp.net/api/Projects",0,null),A.ab(["Content-Type","application/json"],i,i)),$async$qm)
 case 6:m=b
 A.el("Response status code: "+m.b)
 i=m
