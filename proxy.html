@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Proxy</title>
+</head>
+<body>
+<script>
+    // Simple CORS proxy for development
+    fetch('http://teqanat.runasp.net/api/Projects')
+        .then(response => response.json())
+        .then(data => {
+            window.parent.postMessage({data: data}, '*');
+        });
+</script>
+</body>
+</html>
