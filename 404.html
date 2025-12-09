@@ -12,7 +12,9 @@
         // string into just a query string, and then redirects the browser
         // to the new url with only a query string and hash fragment
 
-        var pathSegmentsToKeep = 0;
+        // Set this to 1 for GitHub Pages project repos (username.github.io/repo-name/)
+        // Set this to 0 for GitHub Pages user repos (username.github.io/)
+        var pathSegmentsToKeep = 1;
 
         var l = window.location;
         l.replace(
